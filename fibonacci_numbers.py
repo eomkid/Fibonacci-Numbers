@@ -3,6 +3,7 @@ Program: Fibonacci Numbers
 Description: A program to generate fibonacci numbers 1 - 4 million
 Date: October 4, 2026"""
 
+# make 2 lists one for the working fibo number (1st, 2nd, fibo) and another that stores everything after ever iteration
 
 first_number = 1
 second_number = 2
