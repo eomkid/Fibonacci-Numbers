@@ -10,6 +10,7 @@ first_replacement = 0
 second_replacement = 0
 fibonacci_number = first_number + second_number
 fibonacci_sequence = [first_number, second_number, fibonacci_number]
+print(fibonacci_sequence)
 
 # def even_fibo():
 #    fibonacci_sequence.remove[0]
@@ -18,4 +19,8 @@ fibonacci_sequence = [first_number, second_number, fibonacci_number]
 #    print(fibonacci_number)
 
 fibonacci_sequence.remove(first_number)
+first_number = fibonacci_sequence[0]
+second_number = fibonacci_sequence[1]
+fibonacci_number = first_number + second_number
+fibonacci_sequence.append(fibonacci_number)
 print(fibonacci_sequence)
