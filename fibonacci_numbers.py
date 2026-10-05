@@ -11,17 +11,17 @@ first_replacement = 0
 second_replacement = 0
 fibonacci_number = first_number + second_number
 fibonacci_sequence = [first_number, second_number, fibonacci_number]
-print(fibonacci_sequence)
+fibonacci_result = [first_number, second_number, fibonacci_number]
 
-# def even_fibo():
-#    fibonacci_sequence.remove[0]
+print(fibonacci_result)
 
-# for x in range(0, 4):
-#    print(fibonacci_number)
 
-fibonacci_sequence.remove(first_number)
-first_number = fibonacci_sequence[0]
-second_number = fibonacci_sequence[1]
-fibonacci_number = first_number + second_number
-fibonacci_sequence.append(fibonacci_number)
-print(fibonacci_sequence)
+for x in range(0, 10):
+    fibonacci_sequence.remove(first_number)
+    first_number = fibonacci_sequence[0]
+    second_number = fibonacci_sequence[1]
+    fibonacci_number = first_number + second_number
+    fibonacci_sequence.append(fibonacci_number)
+    fibonacci_result.append(fibonacci_number)
+
+print(fibonacci_result)
