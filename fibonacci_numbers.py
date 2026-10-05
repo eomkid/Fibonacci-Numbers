@@ -1,6 +1,6 @@
 """Author: Brandon Barrett
 Program: Fibonacci Numbers
-Description: A program to generate fibonacci numbers 1 - 4 million
+Description: A program to generate fibonacci numbers 1 - 4 million and take the sum of even values
 Date: October 4, 2026"""
 
 # make 2 lists one for the working fibo number (1st, 2nd, fibo) and another that stores everything after ever iteration
@@ -12,7 +12,7 @@ second_replacement = 0
 fibonacci_number = first_number + second_number
 fibonacci_sequence = [first_number, second_number, fibonacci_number]
 fibonacci_result = [first_number, second_number, fibonacci_number]
-
+even_fibonacci = []
 print(fibonacci_result)
 
 
