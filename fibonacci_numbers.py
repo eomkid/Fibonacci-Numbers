@@ -16,7 +16,7 @@ even_fibonacci = []
 print(fibonacci_result)
 
 
-for x in range(0, 10):
+for x in range(0, 29):
     fibonacci_sequence.remove(first_number)
     first_number = fibonacci_sequence[0]
     second_number = fibonacci_sequence[1]
@@ -24,4 +24,9 @@ for x in range(0, 10):
     fibonacci_sequence.append(fibonacci_number)
     fibonacci_result.append(fibonacci_number)
 
-print(fibonacci_result)
+for even in fibonacci_result:
+    if even % 2 == 0:
+        even_fibonacci.append(even)
+
+print(
+    f"Sum of all even numbered values from fibonacci sequence: {sum(even_fibonacci)}")
